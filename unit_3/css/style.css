@@ -2,24 +2,48 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size:16px; /*1em = 16px*/
 	text-align: center;
-	
+	background-color: #FDFDFD;
+}
+
+#featured {
+	background: url("http://i.imgur.com/wOJlriT.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 490px;
+}
+
+.home-tile {
+	background-color: #d3d3d3;
+	height:400px;
 }
 
 .nav {
 	text-decoration: none;
 	color:#000;
 	letter-spacing: 2px;
-	background-color: #fff;
 	vertical-align: text-top;
 	margin: 0 5px 10px 5px;
 
 }
+
+.link {
+	text-decoration: underline;
+	color: #2A5DB0;
+}
+
 p {
 	line-height: 0.5em;
 	font-family: 'Open Sans', sans-serif;
 }
-
  hr {
  	width:100px;
-
 }
+
+h3 {
+	text-transform: uppercase;
+	line-height: 0.5em;
+	padding-top:90px;
+}
+
+
+
