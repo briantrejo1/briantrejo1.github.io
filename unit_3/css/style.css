@@ -5,6 +5,10 @@ body {
 	background-color: #FDFDFD;
 }
 
+#slogan {
+	font-style: italic;
+}
+
 #featured {
 	background: url("http://i.imgur.com/wOJlriT.jpg");
 	background-repeat: no-repeat;
