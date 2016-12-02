@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Source Sans Pro');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open Sans');
 
 body {
 	font-family: 'Montserrat', sans-serif, arial;
@@ -19,13 +19,13 @@ body {
 }
 
 .home-tile {
-	background-color: #d3d3d3;
+	background-color: #358df2;
 	height:25em;
 }
 
 .nav {
 	text-decoration: none;
-	font-family: Source Sans Pro:800, sans-serif, arial;
+	font-family: Open Sans:800, sans-serif, arial;
 	font-size: 0.85em;
 	color:#000;
 	text-transform: uppercase;
@@ -40,7 +40,7 @@ body {
 
 p {
 	line-height: 1em;
-	font-family: Source Sans Pro, sans-serif, arial;
+	font-family: Open Sans, sans-serif, arial;
 }
  hr {
  	width:6.25em;
@@ -52,8 +52,9 @@ h1 {
 
 h3 {
 	text-transform: uppercase;
-	line-height: 0.5em;
+	line-height: 0.2em;
 	padding-top:5.7em;
+	font-size: 1.5em;
 }
 
 
