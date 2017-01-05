@@ -4,9 +4,44 @@ body {
 	font-family: 'Montserrat', sans-serif, arial;
 	font-size:16px; /*1em = 16px*/
 	text-align: center;
-	background-color: #FDFDFD;
+	/*background-color: #FDFDFD;*/
 }
 
+header { 
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 20px;
+	}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
 
 #slogan {
 	font-size: 1.5em;
@@ -16,21 +51,21 @@ body {
 	margin-top:10px;
 }
 
-#featured {
+/*#featured {
 	background: url("http://i.imgur.com/wOJlriT.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 28em;
 	margin: 0 0 1em 0;
-}
+}*/
 
-.home-tile {
+/*.home-tile {
 	background-color: #358df2;
 	height:25em;
 	display: inline-block;
-}
+}*/
 
-.nav {
+/*.nav {
 	text-decoration: none;
 	font-family: Open Sans:800, sans-serif, arial;
 	font-size: 0.85em;
@@ -38,17 +73,17 @@ body {
 	text-transform: uppercase;
 	margin: 0 5px 10px 5px;
 
-}
+}*/
 
-.link {
+/*.link {
 	text-decoration: underline;
 	color: #2A5DB0;
-}
+}*/
 
-.tile-copy {
+/*.tile-copy {
 	background: #eee;
 	padding: 0 1em;
-}
+}*/
 
 p {
 	line-height: 1em;
