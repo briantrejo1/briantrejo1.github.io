@@ -10,13 +10,13 @@ body {
 header { 
 	background-color: #FFED74;
 	border: 1px black solid;
-    padding: 5px;
+    padding: 20px;
 	}
 
 nav {
 	background-color: #303030;
 	border: 1px black solid;
-    padding: 5px;
+    padding: 20px;
 }
 
 nav a {
@@ -48,7 +48,7 @@ footer {
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-/*    padding: 20px;*/
+    padding: 20px;
 }
 
 #contact {
@@ -87,7 +87,7 @@ section {
 }
 
 #featured {
-	/*background: url("http://i.imgur.com/wOJlriT.jpg");*/
+	background: url("teotihuacan.JPG");
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 28em;
