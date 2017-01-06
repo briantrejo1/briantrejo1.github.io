@@ -10,20 +10,20 @@ body {
 header { 
 	background-color: #FFED74;
 	border: 1px black solid;
-    padding: 10px;
+    padding: 5px;
 	}
 
 nav {
-	background-color: #E8C66A;
+	background-color: #303030;
 	border: 1px black solid;
-    padding: 10px;
+    padding: 5px;
 }
 
 nav a {
 	text-decoration: none;
 	font-family: Open Sans:800, sans-serif, arial;
 	font-size: 0.85em;
-	color:#000;
+	color:#fff;
 	text-transform: uppercase;
 	margin: 0 5px 10px 5px;
 
@@ -48,7 +48,7 @@ footer {
 section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-    padding: 20px;
+/*    padding: 20px;*/
 }
 
 #contact {
@@ -56,7 +56,7 @@ section {
 }
 
 #two_column {
-	background-color: #FFB7CF;
+    background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
 }
@@ -66,7 +66,7 @@ section {
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 40%;
+    width: 30%;
 }
 
 #right {
@@ -74,7 +74,7 @@ section {
     border: 1px black solid;
     padding: 20px;
     float: right;   
-    width: 52%;
+    width: 62%;
 }
 
 .clearfix:after {
@@ -87,7 +87,7 @@ section {
 }
 
 #featured {
-	background: url("http://i.imgur.com/wOJlriT.jpg");
+	/*background: url("http://i.imgur.com/wOJlriT.jpg");*/
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 28em;
@@ -119,7 +119,7 @@ h1 {
 h3 {
 	text-transform: uppercase;
 	line-height: 0.2em;
-	padding-top:5.7em;
+/*	padding-top:5.7em;*/
 	font-size: 1.5em;
 }
 
