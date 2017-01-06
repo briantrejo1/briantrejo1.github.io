@@ -87,9 +87,7 @@ section {
 }
 
 #featured {
-	background: url("teotihuacan.JPG");
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url("images/teotihuacan.jpg") no-repeat cover;
 	height: 28em;
 	margin: 0 0 1em 0;
 }
