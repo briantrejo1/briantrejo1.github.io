@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open Sans');
+
+body {
+	font-family: 'Montserrat', sans-serif, arial;
+	font-size:16px; /*1em = 16px*/
+	text-align: center;
+	background-color: #FFE2B8;
+}
+
+header { 
+	background-color: #FFED74;
+	border: 1px black solid;
+    padding: 10px;
+	}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 10px;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: Open Sans:800, sans-serif, arial;
+	font-size: 0.85em;
+	color:#000;
+	text-transform: uppercase;
+	margin: 0 5px 10px 5px;
+
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+	background-color: #FF957C;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#contact {
+	margin-top:10px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 40%;
+}
+
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;   
+    width: 52%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#featured {
+	background: url("http://i.imgur.com/wOJlriT.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 28em;
+	margin: 0 0 1em 0;
+}
+
+.link {
+	text-decoration: none;
+	color: #2A5DB0;
+}
+
+.link:hover {
+	text-decoration: underline;
+	color: #2A5DB0;
+}
+
+p {
+	line-height: 1em;
+	font-family: Open Sans, sans-serif, arial;
+}
+ hr {
+ 	width:6.25em;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+
+h3 {
+	text-transform: uppercase;
+	line-height: 0.2em;
+	padding-top:5.7em;
+	font-size: 1.5em;
+}
+
+
+
