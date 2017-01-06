@@ -1,16 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Open Sans|Leckerli+One');
 
 body {
-	font-family: 'Montserrat', sans-serif, arial;
+	font-family: Montserrat, sans-serif, arial;
 	font-size:16px; /*1em = 16px*/
 	text-align: center;
-	background-color: #FFE2B8;
+}
+
+p {
+	line-height: 1em;
+	font-family: Open Sans, sans-serif, arial;
 }
 
 header { 
+	font-size: 4em;
+	font-family: Leckerli One, cursive;
+	border: 1px #a9a9a9 solid;
 	background-color: #fff;
-	border: 1px black solid;
-    padding: 20px;
+	text-align: center;
+	width: 20%;
+	margin: .2em auto;
 	}
 
 nav {
@@ -23,57 +31,90 @@ nav a {
 	font-family: Open Sans:800, sans-serif, arial;
 	font-size: 0.85em;
 	color:#fff;
+	letter-spacing: .050em;
 	text-transform: uppercase;
-	margin: 0 5px 10px 5px;
+	margin: 0 .31em;
 
 }
 
 nav a:hover {
-	text-decoration: underline;
+	text-decoration: line-through;
+}
+
+#featured {
+	background-image: url(../images/calaveras.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50%;
 }
 
 article {
-	background-color: #E89C6C;
-	border: 1px black solid;
+	background-color: #fff;
     padding: 20px;
+
 }
 
-footer {
-	background-color: #FF957C;
+aside {
+	background-color: #FFC675;
 	border: 1px black solid;
-    padding: 20px;
+    padding: 1.25em;
 }
 
-section {
+.read-more-link {
+	font-size:.45em;
+	text-align:left;
+	color:#fff;
+	text-decoration: none;
+}
+
+.read-more-link:hover {
+	text-decoration: line-through;
+	font-size:.45em;
+	text-align:left;
+}
+
+
+.text-tile {
+	color: #fff;
+	background-color: #000;
+	font-size: 1.5em;
+	text-align: center;	
+	text-transform: uppercase;
+	padding: 0.5em;
+	width: 35%;
+	margin: 12% auto;
+}
+
+/*section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
     padding: 20px;
-}
+}*/
 
-#contact {
-	margin-top:10px;
-}
 
 #two_column {
-    background-color: #FFB7CF;
+    background-color: #fff;
     border: 1px black solid;
     padding: 20px;
 }
 
 #left {
-    background-color: violet;
+    background-image: url(../images/paris.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
     border: 1px black solid;
-    padding: 20px;
     float: left;
-    width: 30%;
+    width: 42%;
 }
 
 #right {
-    background-color: pink;
+	background-color: #FFE2B8;
+    background-image: url(../images/oakland.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
     border: 1px black solid;
-    padding: 20px;
     float: right;   
-    width: 62%;
+    width: 50%;
 }
 
 .clearfix:after {
@@ -85,43 +126,24 @@ section {
     height: 0;
 }
 
-#featured {
-	background-image: url(../images/calaveras.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 28em;
-	margin: 0 0 1em 0;
+
+#contact {
+	font-size: 0.80em;
+	color:#000;
+	font-family: Montserrat, sans-serif, arial;
 }
 
 .link {
 	text-decoration: none;
-	color: #2A5DB0;
+	color: #000;
 }
 
 .link:hover {
 	text-decoration: underline;
-	color: #2A5DB0;
+	color: #fff;
 }
 
-p {
-	line-height: 1em;
-	font-family: Open Sans, sans-serif, arial;
+footer {
+	background-color: #303030;
+    padding: 15px;
 }
- hr {
- 	width:6.25em;
-}
-
-h1 {
-	font-size: 2.5em;
-	font-family: 'Leckerli One', cursive;
-}
-
-h3 {
-	text-transform: uppercase;
-	line-height: 0.2em;
-/*	padding-top:5.7em;*/
-	font-size: 1.5em;
-}
-
-
-
