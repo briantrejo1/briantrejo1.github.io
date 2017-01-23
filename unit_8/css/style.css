@@ -104,6 +104,14 @@ nav a:hover {
     height: 0;
 }
 
+#bio-photo {
+  width:50%;
+}
+
+#bio-text {
+  font-size: 0.55em;
+  text-transform: none;
+}
 
 #contact {
   font-size: 0.80em;
@@ -176,3 +184,4 @@ nav {
 
 
 }
+
