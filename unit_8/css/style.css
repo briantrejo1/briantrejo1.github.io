@@ -65,7 +65,7 @@ nav a:hover {
 
 .text-tile {
   color: #fff;
-  background-color: #000;
+  background-color: #303030;
   font-size: 1.5em;
   text-transform: uppercase;
   padding: 0.75em;
@@ -73,7 +73,27 @@ nav a:hover {
   margin: 15% auto;
 }
 
+.journal-text-tile {
+  color: #303030;
+  background-color: #e9eff4;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  padding: 15% 0% 5% 0%;
+  width: 100%;
+  margin: 1% auto;
+}
 
+.journal-img-left  img{
+  width: 66.3%;
+  float: left;
+  margin: 2% 0 0 0;
+}
+
+.journal-img-right img {
+  width: 31.7%;
+  float: left;
+  margin: 2% 0 0 2%;
+}
 #two_column {
     background-color: #fff;
     margin: 0.5% auto;
@@ -105,12 +125,19 @@ nav a:hover {
 }
 
 #bio-photo {
-  width:50%;
+  width:25%;
+  border-radius: 100%;
+  margin-bottom: 2%;
 }
 
 #bio-text {
   font-size: 0.55em;
   text-transform: none;
+}
+
+#down-arrow {
+  text-align: center;
+  width:2%;
 }
 
 #contact {
