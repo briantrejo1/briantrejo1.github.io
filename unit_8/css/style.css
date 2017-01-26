@@ -124,6 +124,7 @@ nav a:hover {
  width: 30%;
   float: left;
   margin: 1% 1% 0 1%;
+  line-height: 1.45em;
   text-align: left;
   display: block;
 }
@@ -136,6 +137,15 @@ nav a:hover {
   padding: 15% 0% 5% 0%;
   width: 100%;
   margin: 1% auto;
+}
+
+#journal-body {
+ width: 98%;
+  float: left;
+  padding: 3% 1% 5% 1%;
+  text-align: left;
+  line-height: 1.45em;
+  font-family: Open Sans, sans-serif, arial;
 }
 
 .journal-left img {
@@ -152,9 +162,8 @@ nav a:hover {
 }
 
 #journal-map {
-   width: 31%;
+   width: 100%;
   float: left;
-  margin: 1% 1% 0 1%;
 }
 
 article {
@@ -226,8 +235,24 @@ footer {
   font-size: 3em;
 }
 
+
+.journal-left img {
+  width: 100%;
+  float: none;
+  margin: 0 0;
+}
+
 .journal-intro {
   font-size: 0.95em;
+  width: 95%;
+  float: none;
+  padding: 1% 2.5% 0 2.5%;
+  margin: 3% 0% 0 0%;
+}
+
+#journal-body {
+ width: 95%;
+  padding: 3% 2.5% 5% 2.5%;
 }
 
 }
