@@ -11,6 +11,12 @@ p {
   font-family: Open Sans, sans-serif, arial;
 }
 
+h3 {
+  font-family: Open Sans, sans-serif, arial;
+  font-size: 1.5em;
+  padding-bottom: 3%;
+  text-transform: uppercase;
+}
 
 header { 
   font-size: 3em;
@@ -73,27 +79,6 @@ nav a:hover {
   margin: 15% auto;
 }
 
-.journal-text-tile {
-  color: #303030;
-  background-color: #e9eff4;
-  font-size: 4.5em;
-  text-transform: uppercase;
-  padding: 15% 0% 5% 0%;
-  width: 100%;
-  margin: 1% auto;
-}
-
-.journal-img-left  img{
-  width: 66.3%;
-  float: left;
-  margin: 2% 0 0 0;
-}
-
-.journal-img-right img {
-  width: 31.7%;
-  float: left;
-  margin: 2% 0 0 2%;
-}
 #two_column {
     background-color: #fff;
     margin: 0.5% auto;
@@ -135,9 +120,58 @@ nav a:hover {
   text-transform: none;
 }
 
+.journal-intro {
+ width: 30%;
+  float: left;
+  margin: 1% 1% 0 1%;
+  text-align: left;
+  display: block;
+}
+
+.journal-title {
+  color: #303030;
+  background-color: #e9eff4;
+  font-size: 4.5em;
+  text-transform: uppercase;
+  padding: 15% 0% 5% 0%;
+  width: 100%;
+  margin: 1% auto;
+}
+
+.journal-left img {
+  width: 66%;
+  float: left;
+  margin: 1% 0 0 1%;
+}
+
+.journal-right img {
+  width: 31%;
+  float: left;
+  margin: 1% 1% 0 1%;
+
+}
+
+#journal-map {
+   width: 31%;
+  float: left;
+  margin: 1% 1% 0 1%;
+}
+
+article {
+  margin:5% 5% 5% 5%;
+  padding:20% auto;
+  font-size: 1.2em;
+  display: block;
+  text-align: left;
+}
+
 #down-arrow {
   text-align: center;
-  width:2%;
+  width:0.5em;
+}
+
+#down-arrow:hover {
+  margin-top: 4%;
 }
 
 #contact {
@@ -162,8 +196,13 @@ footer {
 
 @media screen and (max-width: 1170px) {
  
-.text-tile {
+  .text-tile {
   width: 50%;
+  }
+
+ .journal-title {
+  font-size: 4em;
+  padding: 15% 0% 15% 0%;
 }
 
 }
@@ -182,6 +221,15 @@ footer {
     width:100%;
     margin: 0 0 1% 0;
   }
+
+  .journal-title {
+  font-size: 3em;
+}
+
+.journal-intro {
+  font-size: 0.95em;
+}
+
 }
 
 
@@ -189,6 +237,13 @@ footer {
   .text-tile {
     width:65%;
   }
+
+.journal-title {
+  font-size: 2.5em;
+}
+
+
+
 }
 
 
@@ -209,6 +264,9 @@ nav {
   display: block;
 }
 
+.journal-title {
+  font-size: 1.5em;
+}
 
 }
 
